@@ -1,0 +1,41 @@
+.red-bar-svg{
+    width: 100%;
+    margin-top: -1rem;
+    z-index: 0;
+}
+
+.logo{
+    position: absolute;
+    transform: scale(0.4);
+    top: -9%;
+}
+
+.user-icon {
+    position: absolute;
+    top: 0.2rem;
+    left: 1rem;
+    z-index: 0;
+    transform: scale(0.9);
+    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+    cursor: pointer;
+}
+
+.menu-icon {
+    position: absolute;
+    top: 0.4rem;
+    right: 1rem;
+    z-index: 0;
+    transform: scale(0.8);
+    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+    .red-bar-svg{
+        margin-top: -13.5rem;
+    }
+    .logo{
+        transform: scale(0.2);
+        top: -21rem;
+    }
+}
